@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment_2</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+
+<body background-image=url(313-3132029_linkedin-wallpaper-wallpapersafari-background-image-for-form-in.jpg)>
+    <form action="" autocomplete="on">
+        <div>
+            <fieldset>
+            <legend><strong>NAME</strong></legend>
+            <label for="first_name">First Name:</label><input type="text" name="first_name" id="first_name" autofocus required> <label
+                for="last_name">Last Name:</label><input type="text" name="last_name" id="last_name" required>
+            </fieldset><hr>
+            <fieldset>
+            <legend><strong>ADDRESS</strong></legend>
+            <label for="street_address">street:</label><input type="text" name="street_address" id="street_address" required>
+            <label for="state">state:</label><input type="text" name="state" id="state" required>
+            <label for="city">City:</label><input type="text" name="city" id="city" required>
+            <label for="Pincode">Pincode:</label><input type="text" name="Pincode" id="Pincode" required></fieldset><br>
+            <hr>
+            <fieldset>
+            <legend><strong>Contact Details</strong></legend>
+            <label for="contact_number">Phone Number:</label><input type="tel" name="contact_number" id="contact_number" pattern="[0-9]{10}"
+                required></fieldset>
+            <hr>
+            <fieldset>
+            <legend><strong>RATING</strong></legend>
+            <b>Quality of products received:</b>
+            <label>
+            <input type="radio"
+                name="quality_of_products_received_rating" required>Excellent</label>
+                <input type="radio"
+                name="quality_of_products_received_rating">Good
+                <input type="radio"
+                name="quality_of_products_received_rating">Bad<br>
+                <b>Value for money:</b>
+                <input type="radio" name="value_for_money_rating" id="Excellent1" required><label for="Excellent1">Excellent</label>
+                <input type="radio" name="value_for_money_rating" id="Good1"><label for="Good1">Good</label>
+                <label for="Bad1"><input type="radio" name="value_for_money_rating" id="Bad1">Bad<br></label>
+                <b>Delivery:</b>
+                <label for="Excellent2"><input type="radio" name="delivery_rating" id="Excellent2">Excellent</label>
+                <input type="radio" name="delivery_rating" id="Good2"><label for="Good2">Good</label>
+                <input type="radio" name="delivery_rating" id="bad2"required><label for="bad2">Bad</label><br>
+                </fieldset><hr>
+                <br><button type="submit" name="submitted" value="SUBMIT NOW" onclick="alert('Thank You!! Click OK to submit...')">SUBMIT NOW</button>
+        </div>
+    </form>
+</body>
+
+</html>

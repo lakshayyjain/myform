@@ -1,0 +1,41 @@
+form {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+body{
+    background-color: bisque;
+    background-image: url('360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg');
+}
+
+legend{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(107, 5, 56);
+    padding: 8px;
+    margin: 15px;
+}
+label{
+    margin: 10px;
+}
+input{
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+    background-color: transparent;
+}
+button[type="submit"] {
+    background-color: #058e09;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+fieldset{
+    border-radius:6px;
+}  
+button[type="submit"]:hover {
+    background-color: #023905;
+  }
+strong{
+    border-radius: 5px;
+}
